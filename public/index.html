@@ -1,0 +1,31 @@
+
+Browser Session Description
+<br />
+<textarea id="localSessionDescription" readonly="true"></textarea>
+<br />
+<script src="./index.js"></script>
+
+<button onclick="window.copySessionDescription()">Copy browser Session Description to clipboard</button>
+
+<br />
+<br />
+<br />
+<br />
+<label for="peerId">PeerId</label>
+<input type="text" id="peerId" />
+<button onclick="sendOffer()">Connect</button>
+<br />
+
+Remote Session Description
+<textarea id="remoteSessionDescription"></textarea>
+<br />
+<button onclick="window.startSession()">Start Session</button>
+<br />
+<br />
+
+Video<br />
+<video id="video1" width="160" height="120" autoplay muted></video> <br />
+
+Logs
+<br />
+<div id="div"></div>
